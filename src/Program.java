@@ -30,7 +30,6 @@ public class Program{
             pass.add(strPass);
         }
 
-
         for (int i = 0; i < login.size(); i++) {
             reg.put(login.get(i), pass.get(i));
         }
@@ -44,12 +43,5 @@ public class Program{
         fw.close();
         readerLogin.close();
         readerPass.close();
-
-
-
-
-
-
-
     }
 }
