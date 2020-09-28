@@ -10,7 +10,7 @@ public class Program{
         File dir = new File("c:/test/Registration");
         System.out.println(dir.mkdir()?"Success":"Failed");
         File file = new File("c:/test/Registration/reg.txt");
-        file.createNewFile();
+        System.out.println(file.createNewFile()?"Success":"Failed");
 
         FileWriter fw = new FileWriter(file);
 
